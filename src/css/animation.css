@@ -1,0 +1,49 @@
+
+/* criar movimento de seta apontando para o banner */
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 40vh;
+    background: black;
+}
+
+.caixa {
+    position: relative;
+    width: 300px;
+    height: 230px;
+    border-radius: 50%  ;
+}
+
+.caixa::before {
+    content: '';
+    position: absolute;
+    inset: -15px 500px;
+    background: linear-gradient(to top,#960a0a6e, #999391, #544243, #9E0005 );
+    border-radius: 50%;
+    transition: 0.4s;
+    animation: animar 4s linear infinite;
+}
+
+@keyframes animar {
+    0% {
+            transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.caixa:hover::before {
+    inset: -5px 0px;
+}
+
+.banner img {
+    position: absolute;
+    width: 100%;
+    inset: 0px;
+    border: 3px solid #960a0a6e;
+    z-index: 2;
+    border-radius: 50%;
+}

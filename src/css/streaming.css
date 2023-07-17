@@ -1,0 +1,51 @@
+/* cores:
+SPOTIFY  #29CE61, #999399, #29CE61
+APPLE MUSIC  #ED334B, #999399, #ED334B
+DEEZER #9E0005,#b6b908, #999399, #b41e94,  #1815c9
+YOUTUBE #FF0000, #999399, #FF0000
+ITUNES #E84BCB, #999399, #E84BCB
+ANGHAMI #7B53D5, #999399, #7B53D5
+  */
+
+.streamings {
+    display: flex;
+    justify-items: center;
+}
+
+.boxmusic {
+    width: 100%;
+    height: 100%;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+img.musicspotify {
+    width: 100%;
+}
+
+img.musicapplemusic {
+    width: 100%;
+}
+
+img.musicdeezer {
+    width: 100%;
+}
+
+img.musicyoutube {
+    width: 100%;
+}
+
+img.musicitunes {
+    width: 100%;
+}
+
+img.musicanghami {
+    width: 100%;
+    padding-top: 20px;
+}
+
+
+img.musictidal {
+    width: 100%;
+}
+
