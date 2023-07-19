@@ -9,7 +9,9 @@ ANGHAMI #7B53D5, #999399, #7B53D5
 
 .streamings {
     display: flex;
-    justify-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
 }
 
 .boxmusic {
@@ -20,32 +22,40 @@ ANGHAMI #7B53D5, #999399, #7B53D5
 }
 
 img.musicspotify {
-    width: 100%;
+    min-width: 100px;
+    max-width: 100px;
 }
 
 img.musicapplemusic {
-    width: 100%;
+    min-width: 80px;
+    max-width: 80px;
 }
 
 img.musicdeezer {
-    width: 100%;
+    min-width: 80px;
+    max-width: 80px;
 }
 
 img.musicyoutube {
-    width: 100%;
+    min-width: 100px;
+    max-width: 100px;
 }
 
 img.musicitunes {
-    width: 100%;
+    min-width: 100px;
+    max-width: 100px;
 }
 
 img.musicanghami {
-    width: 100%;
     padding-top: 20px;
+    padding-bottom: 20px;
+    min-width: 100px;
+    max-width: 100px;
 }
 
 
 img.musictidal {
-    width: 100%;
+    min-width: 90px;
+    max-width: 90px;
 }
 

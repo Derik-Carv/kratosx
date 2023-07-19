@@ -36,3 +36,7 @@ h2 {
     padding-bottom: 25px;
     text-shadow:  #ff0000 -1px -1px 10px;
 }
+
+a {
+    text-decoration: none;
+}
